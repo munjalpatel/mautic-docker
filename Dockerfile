@@ -1,5 +1,5 @@
 FROM ubuntu:trusty
-MAINTAINER Munjal Patel <mpatel@hokulogic.com>
+MAINTAINER Munjal Patel <munjalpatel@gmail.com>
 
 # Install base packages
 RUN apt-get update && \
