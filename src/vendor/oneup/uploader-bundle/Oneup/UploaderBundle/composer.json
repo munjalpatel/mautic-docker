@@ -1,0 +1,41 @@
+{
+    "name": "oneup/uploader-bundle",
+    "type": "symfony-bundle",
+    "description": "Handles multi file uploads in Symfony2. Features included: Chunked upload, Orphans management, Gaufrette support.",
+    "keywords": ["fileupload", "upload", "FineUploader", "blueimp", "jQuery File Uploader", "YUI3 Uploader", "Uploadify", "FancyUpload", "MooUpload", "Plupload", "Dropzone"],
+    "homepage": "http://1up.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jim Schmid",
+            "email": "js@1up.io",
+            "homepage": "http://1up.io",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "symfony/framework-bundle": ">=2.2",
+        "symfony/finder": ">=2.2.0"
+    },
+
+    "require-dev": {
+        "amazonwebservices/aws-sdk-for-php": "1.5.*",
+        "knplabs/gaufrette": "0.2.*@dev",
+        "symfony/class-loader": "2.*",
+        "symfony/security-bundle": "2.*",
+        "sensio/framework-extra-bundle": "2.*",
+        "symfony/browser-kit": "2.*",
+        "phpunit/phpunit": "~4.1"
+    },
+
+    "suggest": {
+        "knplabs/knp-gaufrette-bundle": "0.1.*"
+    },
+
+    "autoload": {
+        "psr-0": { "Oneup\\UploaderBundle": "" }
+    },
+
+    "target-dir": "Oneup/UploaderBundle"
+}
